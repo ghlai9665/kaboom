@@ -1,5 +1,5 @@
 export default function genGame(code) {
-	return `
+  return `
 <!DOCTYPE html>
 
 <html>
@@ -42,7 +42,7 @@ export default function genGame(code) {
 <body>
 	<div id="log"></div>
 	<script src="/lib/dev/kaboom.js"></script>
-	<script>
+	<script type="module">
 ${code}
 	</script>
 </body>
